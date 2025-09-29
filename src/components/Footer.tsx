@@ -21,7 +21,7 @@ export const Footer = () => {
             <p className="text-sm text-muted-foreground">Follow our journey</p>
             <div className="flex items-center gap-4">
               <a
-                href="https://twitter.com/inonlabs"
+                href="https://x.com/omnixiyz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-3 bg-card/30 backdrop-blur-sm border border-border/50 rounded-xl hover:border-glow-primary transition-all duration-300 hover:shadow-glow-primary/20"
@@ -29,7 +29,7 @@ export const Footer = () => {
                 <Twitter className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors duration-300" />
               </a>
               <a
-                href="mailto:hello@inonlabs.com"
+                href="mailto:inonlabs@gmail.com"
                 className="group p-3 bg-card/30 backdrop-blur-sm border border-border/50 rounded-xl hover:border-glow-secondary transition-all duration-300 hover:shadow-glow-secondary/20"
               >
                 <Mail className="w-5 h-5 text-muted-foreground group-hover:text-secondary transition-colors duration-300" />
