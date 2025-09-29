@@ -1,4 +1,4 @@
-import { Twitter, MessageCircle, Mail } from "lucide-react";
+import { Twitter, Mail } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -27,14 +27,6 @@ export const Footer = () => {
                 className="group p-3 bg-card/30 backdrop-blur-sm border border-border/50 rounded-xl hover:border-glow-primary transition-all duration-300 hover:shadow-glow-primary/20"
               >
                 <Twitter className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors duration-300" />
-              </a>
-              <a
-                href="https://discord.gg/omnix"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group p-3 bg-card/30 backdrop-blur-sm border border-border/50 rounded-xl hover:border-glow-secondary transition-all duration-300 hover:shadow-glow-secondary/20"
-              >
-                <MessageCircle className="w-5 h-5 text-muted-foreground group-hover:text-secondary transition-colors duration-300" />
               </a>
               <a
                 href="mailto:hello@inonlabs.com"
