@@ -52,7 +52,7 @@ export const ProductPreview = () => {
                 <img 
                   src={omnixMockup} 
                   alt="Omnix AI Crypto Copilot Interface" 
-                  className="w-80 md:w-96 h-auto opacity-90 hover:opacity-100 transition-opacity duration-300 animate-float"
+                  className="w-80 md:w-96 h-auto animate-[fade-in-out_3s_ease-in-out_infinite]"
                 />
               </div>
 

@@ -108,6 +108,10 @@ export default {
             opacity: "1",
             transform: "translateY(0)"
           }
+        },
+        "fade-in-out": {
+          "0%, 100%": { opacity: "0.7" },
+          "50%": { opacity: "1" },
         }
       },
       animation: {
@@ -116,6 +120,7 @@ export default {
         "glow-pulse": "glow-pulse 3s ease-in-out infinite",
         "float": "float 6s ease-in-out infinite",
         "fade-in-up": "fade-in-up 0.6s ease-out",
+        "fade-in-out": "fade-in-out 4s ease-in-out infinite",
       },
     },
   },
